@@ -208,7 +208,7 @@ try:
     log    = logging.getLogger(module)
 except:
     log = logging.getLogger()
-    print 'Not running from main.'
+    print('Not running from main.')
 
 class GPClassifier(GP):
     def __init__(self, num_dims, **options):

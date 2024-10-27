@@ -201,7 +201,7 @@ try:
     log    = logging.getLogger(module)
 except:
     log    = logging.getLogger()
-    print 'Not running from main.'
+    print('Not running from main.')
 
 DEFAULT_MCMC_ITERS = 10
 DEFAULT_BURNIN     = 100

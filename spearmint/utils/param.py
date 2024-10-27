@@ -272,6 +272,6 @@ class Param(object):
 
     def print_diagnostics(self):
         if self.size() == 1:
-            print '    %s: %s' % (self.name, self.value)
+            print('    %s: %s' % (self.name, self.value))
         else:
-            print '    %s: min=%s, max=%s (size=%d)' % (self.name, self.value.min(), self.value.max(), self.size())
+            print('    %s: min=%s, max=%s (size=%d)' % (self.name, self.value.min(), self.value.max(), self.size()))

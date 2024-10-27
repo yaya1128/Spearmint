@@ -207,7 +207,7 @@ def truncate_inputs(func):
     Truncates the inputs to lie between 0 and 1 if it doesn't already.
     This is to prevent small rounding errors from making the beta cdf and pdf
     go crazy. If the inputs genuinely lives outside of [0,1] then we obviously
-    don't want to do this, so print out a warning just in case.
+    don't want to do this, so print(out a warning just in case.)
     """
     def inner(cls_instance, inputs, *args):
         inputs = inputs.copy()
